@@ -1,0 +1,12 @@
+[plugin]
+deps = []
+
+[[flavor.deps]]
+use = "gosxrgxx/flexoki-dark"
+rev = "28e1977"
+hash = "9dbbb64ea20f9f1271c31951dea55c7b"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:dracula"
+rev = "3edeb49"
+hash = "c5e49b9e877ca29a3622ec2e35af0b2a"
