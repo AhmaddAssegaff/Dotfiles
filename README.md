@@ -79,19 +79,19 @@ mv ~/Downloads/CaskaydiaCove/*.ttf ~/.local/share/fonts/
 git clone git@github.com:AhmaddAssegaff/Dotfiles.git ~/dotfiles
 ```
 
-### Gunakan Stow untuk membuat symlink
+### A. Gunakan Stow untuk membuat symlink
 > **Note:** Hapus config lama di ~/.config/ jika ada konflik
 ```bash
 cd ~/dotfiles
 stow fish nvim lazygit yazi kitty tmux starship
 ```
 
-### Inisialisasi Tmux Config
+### B. Inisialisasi Tmux Config
 ```bash
 echo "source-file ~/.config/tmux/tmux.conf" > ~/.tmux.conf
 ```
 
-### Ubah fish jadi default Shell
+### C. Ubah fish jadi default Shell
 ```bash
 chsh -s $(which fish)
 ```
