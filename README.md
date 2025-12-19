@@ -65,7 +65,7 @@ curl -sS https://starship.rs/install.sh | sh
 ```
 
 ### G. Install nerdfonts
-Anda bisa cari di : https://www.nerdfonts.com/font-downloads
+Anda bisa cari di[sini](https://www.nerdfonts.com/font-downloads)<br>
 Saya menggunakan CaskaydiaCove nerd font
 ```bash
 unzip ~/Downloads/CaskaydiaCove.zip -d ~/Downloads/CaskaydiaCove
@@ -81,7 +81,7 @@ cd ~/dotfiles
 ```
 
 # Gunakan Stow untuk membuat symlink
-# Note: Hapus config lama di ~/.config/ jika ada konflik
+> **Note:** Hapus config lama di ~/.config/ jika ada konflik
 ```bash
 stow fish nvim lazygit yazi kitty tmux starship
 ```
