@@ -11,7 +11,12 @@ Perintah di bawah **khusus untuk Fedora**:
 sudo dnf install stow git neovim
 sudo dnf install lazygit
 sudo dnf install yazi
+curl -LO https://github.com/eza-community/eza/releases/latest/download/eza_x86_64-unknown-linux-gnu.tar.gz
 ```
+tar -xzf eza_x86_64-unknown-linux-gnu.tar.gz
+sudo mv eza /usr/local/bin/
+sudo chmod +x /usr/local/bin/eza
+eza --version
 
 ## 2. Clone Repository
 ```bash

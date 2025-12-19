@@ -1,10 +1,20 @@
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    if type -q eza
+        alias ls='eza --icons --group-directories-first'
+        alias ll='eza -lah --icons --git'
+        alias la='eza -a --icons'
+        alias tree='eza --tree --icons'
+    else
+        alias ls='ls --color=auto --group-directories-first'
+        alias ll='ls -lah'
+    end
 end
+
+set -g fish_theme "Catppuccin Mocha"
+
 alias conf='cd ~/.config'
 alias proj='cd ~/project'
 alias cls='clear'
-alias ll='ls -l'
 
 alias tmux="tmux -u"
 alias tmuxls="tmux list-sessions"
