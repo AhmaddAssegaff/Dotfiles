@@ -47,11 +47,11 @@ eza --version
 ### E. Install Tmux & TPM (Plugin Manager)
 1. Install Tmux:
    ```bash
-   `sudo dnf install tmux`
+   sudo dnf install tmux
    ```
 2. Clone TPM:
    ```bash
-   `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
    ```
 3. Inisialisasi:
    Pastikan file `~/.tmux.conf` berisi:
@@ -65,7 +65,7 @@ curl -sS https://starship.rs/install.sh | sh
 ```
 
 ### G. Install nerdfonts
-Anda bisa cari di[sini](https://www.nerdfonts.com/font-downloads)<br>
+Anda bisa cari [disini](https://www.nerdfonts.com/font-downloads)<br>
 Saya menggunakan CaskaydiaCove nerd font
 ```bash
 unzip ~/Downloads/CaskaydiaCove.zip -d ~/Downloads/CaskaydiaCove
