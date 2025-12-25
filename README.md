@@ -20,7 +20,7 @@ Jalankan perintah berikut untuk menginstall semua tools yang diperlukan di siste
 
 ### A. Install Tools Utama dari DNF
 ```bash
-sudo dnf install stow git neovim fish kitty
+sudo dnf install stow git neovim fish kitty fzf zoxide
 ```
 
 ### B. Install LazyGit
